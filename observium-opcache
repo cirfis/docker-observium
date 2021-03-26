@@ -1,0 +1,5 @@
+; configuration for php opcache module
+zend_extension=opcache.so
+opcache.enable=1
+opcache.enable_cli=1
+opcache.file_cache=/tmp/php-opcache
