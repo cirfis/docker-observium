@@ -4,6 +4,8 @@ FROM ubuntu:18.04
 LABEL maintainer "cirfis"
 LABEL version="1.2"
 LABEL description="Docker container for Observium Community Edition"
+LABEL org.opencontainers.image.source https://github.com/cirfis/docker-observium
+
 
 ARG OBSERVIUM_ADMIN_USER=${OBSERVIUM_ADMIN_USER:-cirfis}
 ARG OBSERVIUM_ADMIN_PASS=${OBSERVIUM_ADMIN_PASS:-passw0rd}
